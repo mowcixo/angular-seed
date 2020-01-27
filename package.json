@@ -11,6 +11,7 @@
     "e2e": "ng e2e",
     "i18n": "gulp i18n",
     "ngcc": "ngcc",
+    "clean:nodemodules": "rm -rf node_modules",
     "firstinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points",
     "postinstall": "node locale.js && npm run firstinstall",
     "build:prod": "npm run i18n && ng build --prod",
