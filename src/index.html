@@ -20,148 +20,147 @@
 	<!-- <link rel="me" href="https://www.TUWEB.com/" type="text/html"> -->
 	<!-- <link rel="me" href="sms:+00(0)0000000000"> -->
 
-	<link rel="manifest" href="manifest.json">
+	<link rel="manifest" href="manifest.webmanifest">
 	<meta name="theme-color" content="#E37222">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
 
 	<style>
-.loading {
-	position: absolute;
-	top: calc(50% - 100px);
-	left: calc(50% - 65px);
+		.loading {
+			position: absolute;
+			top: calc(50% - 100px);
+			left: calc(50% - 65px);
 
-	font-family: Roboto, 'Helvetica Neue', sans-serif;
-}
+			font-family: Roboto, 'Helvetica Neue', sans-serif;
+		}
 
-.spinner {
-	position: absolute;
-	top: calc(50% - 65px);
-	left: calc(50% - 65px);
+		.spinner {
+			position: absolute;
+			top: calc(50% - 65px);
+			left: calc(50% - 65px);
 
-	-webkit-animation: rotator 1.4s linear infinite;
-	animation: rotator 1.4s linear infinite;
-}
+			-webkit-animation: rotator 1.4s linear infinite;
+			animation: rotator 1.4s linear infinite;
+		}
 
-@-webkit-keyframes rotator {
-	0% {
-		-webkit-transform: rotate(0deg);
-		transform: rotate(0deg);
-	}
+		@-webkit-keyframes rotator {
+			0% {
+				-webkit-transform: rotate(0deg);
+				transform: rotate(0deg);
+			}
 
-	100% {
-		-webkit-transform: rotate(270deg);
-		transform: rotate(270deg);
-	}
-}
+			100% {
+				-webkit-transform: rotate(270deg);
+				transform: rotate(270deg);
+			}
+		}
 
-@keyframes rotator {
-	0% {
-		-webkit-transform: rotate(0deg);
-		transform: rotate(0deg);
-	}
+		@keyframes rotator {
+			0% {
+				-webkit-transform: rotate(0deg);
+				transform: rotate(0deg);
+			}
 
-	100% {
-		-webkit-transform: rotate(270deg);
-		transform: rotate(270deg);
-	}
-}
+			100% {
+				-webkit-transform: rotate(270deg);
+				transform: rotate(270deg);
+			}
+		}
 
-.path {
-	-webkit-transform-origin: center;
-	transform-origin: center;
-	-webkit-animation: dash 1.4s ease-in-out infinite, colors 5.6s ease-in-out infinite;
-	animation: dash 1.4s ease-in-out infinite, colors 5.6s ease-in-out infinite;
+		.path {
+			-webkit-transform-origin: center;
+			transform-origin: center;
+			-webkit-animation: dash 1.4s ease-in-out infinite, colors 5.6s ease-in-out infinite;
+			animation: dash 1.4s ease-in-out infinite, colors 5.6s ease-in-out infinite;
 
-	stroke-dasharray: 187;
-	stroke-dashoffset: 0;
-}
+			stroke-dasharray: 187;
+			stroke-dashoffset: 0;
+		}
 
-@-webkit-keyframes colors {
-	0% {
-		stroke: #4285F4;
-	}
+		@-webkit-keyframes colors {
+			0% {
+				stroke: #4285F4;
+			}
 
-	25% {
-		stroke: #DE3E35;
-	}
+			25% {
+				stroke: #DE3E35;
+			}
 
-	50% {
-		stroke: #F7C223;
-	}
+			50% {
+				stroke: #F7C223;
+			}
 
-	75% {
-		stroke: #1B9A59;
-	}
+			75% {
+				stroke: #1B9A59;
+			}
 
-	100% {
-		stroke: #4285F4;
-	}
-}
+			100% {
+				stroke: #4285F4;
+			}
+		}
 
-@keyframes colors {
-	0% {
-		stroke: #4285F4;
-	}
+		@keyframes colors {
+			0% {
+				stroke: #4285F4;
+			}
 
-	25% {
-		stroke: #DE3E35;
-	}
+			25% {
+				stroke: #DE3E35;
+			}
 
-	50% {
-		stroke: #F7C223;
-	}
+			50% {
+				stroke: #F7C223;
+			}
 
-	75% {
-		stroke: #1B9A59;
-	}
+			75% {
+				stroke: #1B9A59;
+			}
 
-	100% {
-		stroke: #4285F4;
-	}
-}
+			100% {
+				stroke: #4285F4;
+			}
+		}
 
-@-webkit-keyframes dash {
-	0% {
-		stroke-dashoffset: 187;
-	}
+		@-webkit-keyframes dash {
+			0% {
+				stroke-dashoffset: 187;
+			}
 
-	50% {
-		-webkit-transform: rotate(135deg);
-		transform: rotate(135deg);
+			50% {
+				-webkit-transform: rotate(135deg);
+				transform: rotate(135deg);
 
-		stroke-dashoffset: 46.75;
-	}
+				stroke-dashoffset: 46.75;
+			}
 
-	100% {
-		-webkit-transform: rotate(450deg);
-		transform: rotate(450deg);
+			100% {
+				-webkit-transform: rotate(450deg);
+				transform: rotate(450deg);
 
-		stroke-dashoffset: 187;
-	}
-}
+				stroke-dashoffset: 187;
+			}
+		}
 
-@keyframes dash {
-	0% {
-		stroke-dashoffset: 187;
-	}
+		@keyframes dash {
+			0% {
+				stroke-dashoffset: 187;
+			}
 
-	50% {
-		-webkit-transform: rotate(135deg);
-		transform: rotate(135deg);
+			50% {
+				-webkit-transform: rotate(135deg);
+				transform: rotate(135deg);
 
-		stroke-dashoffset: 46.75;
-	}
+				stroke-dashoffset: 46.75;
+			}
 
-	100% {
-		-webkit-transform: rotate(450deg);
-		transform: rotate(450deg);
+			100% {
+				-webkit-transform: rotate(450deg);
+				transform: rotate(450deg);
 
-		stroke-dashoffset: 187;
-	}
-}
-
+				stroke-dashoffset: 187;
+			}
+		}
 	</style>
 	<link rel="manifest" href="manifest.webmanifest">
 	<meta name="theme-color" content="#1976d2">
